@@ -1,0 +1,27 @@
+| Action       | Where        |
+| ------------ | ------------ |
+| Draw line    | mouseMove    |
+| Finish line  | mouseUp      |
+| Create shape | mouseDown    |
+| Move shape   | dragEnd      |
+| Resize shape | transformEnd |
+
+AFTER FIX TEST
+
+Do this:
+
+✅ Drawing
+
+Draw line → release → undo works
+
+✅ Shape
+
+Click → shape created
+
+Undo → removed
+
+Redo → comes back
+
+✅ Resize
+
+Select → resize → undo works
